@@ -115,5 +115,5 @@ results_df["Combrank"]=results_df["EarningYield"].rank(ascending=False,na_option
 results_df["Magic_rank"]=results_df["Combrank"].rank(method='first')
 value_stocks = results_df.sort_values("Magic_rank")
 
-print("FUCKKKKKK YOUUUUUUUUUUUUUUUU!!!!!!!!!!!!")
+print("Success!")
 
